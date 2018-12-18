@@ -1,0 +1,30 @@
+message ResGameStartMessage {  
+	optional int64 id=1;
+	optional int64 startTime=2;
+	optional PKTeamConfigMessage homeTeam=3;
+	optional PKTeamConfigMessage awayTeam=4;
+}
+message PKTeamConfigMessage {  
+	optional TeamSimpleMessage teamInfo=1;
+	repeated PKPlayerMessage playerList=2;
+	optional int32 tactics=3;
+	optional int32 moveType=4;
+}
+message TeamSimpleMessage {  
+	optional int64 teamId=1;
+	optional string teamName=2;
+	optional string logo=3;
+	optional int32 level=4;
+}
+message PKPlayerMessage {  
+	optional int64 pid=1;
+	optional int32 playerId=2;
+	optional int32 position=3;
+	optional int32 heroId=4;
+	repeated BattleSkillMessage skillList=5;
+	repeated int32 equiList=6;
+}
+message BattleSkillMessage {  
+	optional int32 skillId=1;
+	optional int32 level=2;
+}

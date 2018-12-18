@@ -1,0 +1,15 @@
+message ResGameReplyMessage {  
+	optional int32 startFrame=1;
+	optional int32 endFrame=2;
+	repeated FrameDataMessage frameDataList=3;
+}
+message FrameDataMessage {  
+	optional int32 frameIndex=1;
+	repeated ResGameCmdMessage cmdList=2;
+}
+message ResGameCmdMessage {  
+	optional int64 teamId=1;
+	optional int64 pid=2;
+	optional int32 cmdType=3;
+	repeated int32 cmdValue=4;
+}

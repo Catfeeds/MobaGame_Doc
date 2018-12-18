@@ -1,0 +1,5 @@
+message ReqGameCmdMessage {  
+	optional int64 pid=1;
+	optional int32 cmdType=2;
+	repeated int32 cmdValue=3;
+}

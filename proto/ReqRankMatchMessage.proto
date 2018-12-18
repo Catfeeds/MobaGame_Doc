@@ -1,0 +1,3 @@
+message ReqRankMatchMessage {  
+	optional int32 tp=1;
+}

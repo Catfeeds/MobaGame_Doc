@@ -1,0 +1,3 @@
+message ReqTradeSelfListMessage {  
+	optional string param=1;
+}

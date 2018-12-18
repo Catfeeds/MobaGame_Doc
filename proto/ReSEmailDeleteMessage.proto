@@ -1,0 +1,3 @@
+message ResEmailDeleteMessage {  
+	repeated int64 ids=1;
+}

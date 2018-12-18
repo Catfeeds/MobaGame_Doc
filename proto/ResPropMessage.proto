@@ -1,0 +1,6 @@
+message ResPropMessage {  
+	optional int32 id=1;
+	optional int32 propId=2;
+	optional int32 num=3;
+	optional int64 endTime=4;
+}

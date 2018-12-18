@@ -1,0 +1,12 @@
+message ResChatMessage {  
+	optional int32 msgType=1;
+	optional string msg=2;
+	optional TeamSimpleMessage team=3;
+	optional int64 sendTime=4;
+}
+message TeamSimpleMessage {  
+	optional int64 teamId=1;
+	optional string teamName=2;
+	optional string logo=3;
+	optional int32 level=4;
+}

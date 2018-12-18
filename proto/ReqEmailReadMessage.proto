@@ -1,0 +1,3 @@
+message ReqEmailReadMessage {  
+	repeated int64 ids=1;
+}

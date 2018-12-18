@@ -1,0 +1,9 @@
+message ResTaskAwardMessage {  
+	optional int32 tid=1;
+	repeated ResPropSimpleData awardList=2;
+	optional int32 active=3;
+}
+message ResPropSimpleData {  
+	optional int32 propId=1;
+	optional int32 num=2;
+}

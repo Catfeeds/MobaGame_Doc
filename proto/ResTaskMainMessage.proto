@@ -1,0 +1,18 @@
+message ResTaskMainMessage {  
+	repeated TaskMessage taskList=1;
+	optional int32 activeValue=2;
+	repeated AwardStatusMessage awardList=3;
+}
+message TaskMessage {  
+	optional int32 tid=1;
+	optional int32 status=2;
+	repeated TaskConditionMessage conditions=3;
+}
+message TaskConditionMessage {  
+	optional int32 cid=1;
+	optional int32 valInt=2;
+}
+message AwardStatusMessage {  
+	optional int32 id=1;
+	optional int32 status=2;
+}

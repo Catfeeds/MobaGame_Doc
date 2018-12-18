@@ -1,0 +1,5 @@
+message ReqChatMessage {  
+	optional int32 msgType=1;
+	optional string msg=2;
+	optional int64 targetTeamId=3;
+}

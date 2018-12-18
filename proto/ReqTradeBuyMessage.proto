@@ -1,0 +1,3 @@
+message ReqTradeBuyMessage {  
+	optional int64 tid=1;
+}

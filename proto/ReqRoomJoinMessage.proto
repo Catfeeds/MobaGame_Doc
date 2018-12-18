@@ -1,0 +1,3 @@
+message ReqRoomJoinMessage {  
+	optional int32 roomId=1;
+}

@@ -1,0 +1,3 @@
+message ResTeamLevelUpMessage {  
+	optional int32 level=1;
+}

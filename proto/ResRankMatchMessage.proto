@@ -1,0 +1,10 @@
+message ResRankMatchMessage {  
+	optional TeamSimpleMessage homeTeam=1;
+	optional TeamSimpleMessage awayTeam=2;
+}
+message TeamSimpleMessage {  
+	optional int64 teamId=1;
+	optional string teamName=2;
+	optional string logo=3;
+	optional int32 level=4;
+}

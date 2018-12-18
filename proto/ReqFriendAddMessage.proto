@@ -1,0 +1,4 @@
+message ReqFriendAddMessage {  
+	optional int64 teamId=1;
+	optional string mgs=2;
+}

@@ -1,0 +1,3 @@
+message ReqStageChallengeMessage {  
+	optional int32 stageId=1;
+}

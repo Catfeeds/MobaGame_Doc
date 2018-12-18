@@ -1,0 +1,6 @@
+message ResMoney {  
+	optional int64 exp=1;
+	optional int64 money=2;
+	optional int64 gold=3;
+	optional int64 bdMoney=4;
+}

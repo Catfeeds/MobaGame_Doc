@@ -1,0 +1,3 @@
+message ResTacticsUseMessage {  
+	optional int32 tid=1;
+}

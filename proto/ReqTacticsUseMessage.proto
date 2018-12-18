@@ -1,0 +1,3 @@
+message ReqTacticsUseMessage {  
+	optional int32 tid=1;
+}

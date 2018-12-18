@@ -1,0 +1,3 @@
+message ReqSkillUpLevelMessage {  
+	optional int32 skillId=1;
+}

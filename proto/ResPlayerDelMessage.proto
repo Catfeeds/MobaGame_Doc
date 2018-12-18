@@ -1,0 +1,3 @@
+message ResPlayerDelMessage {  
+	optional int64 id=1;
+}

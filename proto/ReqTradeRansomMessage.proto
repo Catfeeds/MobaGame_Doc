@@ -1,0 +1,3 @@
+message ReqTradeRansomMessage {  
+	optional int64 tid=1;
+}

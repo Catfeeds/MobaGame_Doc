@@ -1,0 +1,4 @@
+message ReqEquiLevelupMessage {  
+	optional int64 eid=1;
+	optional int64 teamId=2;
+}

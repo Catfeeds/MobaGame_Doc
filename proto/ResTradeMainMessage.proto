@@ -1,0 +1,13 @@
+message ResTradeMainMessage {  
+	repeated TradeMessage tradeList=1;
+}
+message TradeMessage {  
+	optional int64 tid=1;
+	optional int32 playerId=2;
+	optional int32 price=3;
+	optional int32 moneyType=4;
+	optional int32 moneyValue=5;
+	optional int64 sellTeam=6;
+	optional string sellName=7;
+	optional int64 endTime=8;
+}

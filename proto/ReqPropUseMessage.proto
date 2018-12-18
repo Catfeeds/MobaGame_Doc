@@ -1,0 +1,4 @@
+message ReqPropUseMessage {  
+	optional int32 propId=1;
+	optional int32 num=2;
+}

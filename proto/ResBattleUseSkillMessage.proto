@@ -1,0 +1,6 @@
+message ResBattleUseSkillMessage {  
+	optional int64 battleId=1;
+	optional int64 teamId=2;
+	optional int64 pid=3;
+	optional int32 skillId=4;
+}

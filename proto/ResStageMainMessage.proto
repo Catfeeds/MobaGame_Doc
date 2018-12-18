@@ -1,0 +1,8 @@
+message ResStageMainMessage {  
+	repeated StageMessage stageList=1;
+}
+message StageMessage {  
+	optional int32 stage=1;
+	optional int32 star=2;
+	optional bool pass=3;
+}

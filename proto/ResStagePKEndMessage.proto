@@ -1,0 +1,5 @@
+message ResStagePKEndMessage {  
+	optional int32 stageId=1;
+	optional bool pass=2;
+	optional int32 star=3;
+}

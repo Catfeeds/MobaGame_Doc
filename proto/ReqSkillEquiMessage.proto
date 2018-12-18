@@ -1,0 +1,4 @@
+message ReqSkillEquiMessage {  
+	optional int64 pid=1;
+	optional int32 skillId=2;
+}

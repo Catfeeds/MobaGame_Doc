@@ -1,0 +1,4 @@
+message ResSkillUpLevelMessage {  
+	optional int32 skillId=1;
+	optional int32 level=2;
+}

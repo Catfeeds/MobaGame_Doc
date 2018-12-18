@@ -1,0 +1,7 @@
+message ReqLoginMessage {  
+	optional int64 accountId=1;
+	optional string md5=2;
+	optional int64 time=3;
+	optional string verTokern=4;
+	optional int32 version=5;
+}

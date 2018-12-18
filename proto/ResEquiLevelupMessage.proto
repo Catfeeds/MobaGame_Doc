@@ -1,0 +1,9 @@
+message ResEquiLevelupMessage {  
+	optional EquiMessage equi=1;
+}
+message EquiMessage {  
+	optional int64 eid=1;
+	optional int32 equiId=2;
+	optional int32 level=3;
+	optional int64 pid=4;
+}

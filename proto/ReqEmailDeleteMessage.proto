@@ -1,0 +1,3 @@
+message ReqEmailDeleteMessage {  
+	repeated int64 ids=1;
+}

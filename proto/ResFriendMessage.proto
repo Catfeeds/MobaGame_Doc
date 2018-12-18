@@ -1,0 +1,15 @@
+message ResFriendMessage {  
+	optional int32 friendType=1;
+	optional FriendMessage friend=2;
+	optional int32 operation=3;
+}
+message FriendMessage {  
+	optional int64 teamId=1;
+	optional string logo=2;
+	optional string name=3;
+	optional int32 lv=4;
+	optional bool online=5;
+	optional int64 refusedTime=6;
+	optional int64 leagueId=7;
+	optional int64 createTime=8;
+}

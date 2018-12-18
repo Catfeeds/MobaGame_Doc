@@ -1,0 +1,3 @@
+message ReqGmExecMessage {  
+	optional string command=1;
+}

@@ -1,0 +1,7 @@
+message ReqTradeMainTestMessage {  
+	optional int32 playerId=1;
+	optional int32 pos=2;
+	optional int32 moneyOrder=3;
+	optional int32 priceOrder=4;
+	optional int32 page=5;
+}

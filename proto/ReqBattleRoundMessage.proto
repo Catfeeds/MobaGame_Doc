@@ -1,0 +1,21 @@
+message ReqBattleRoundMessage {  
+	optional int64 battleId=1;
+	optional int32 roundId=2;
+	optional TeamStaMessage homeTeamStatus=3;
+	optional TeamStaMessage awayTeamStatus=4;
+	optional bool battleEnd=5;
+}
+message TeamStaMessage {  
+	optional int64 teamId=1;
+	optional int32 tacticsId=2;
+	optional int32 moveType=3;
+	repeated PlayerStaMessage playerList=4;
+	optional int32 coreHp=5;
+}
+message PlayerStaMessage {  
+	optional int64 pid=1;
+	optional int32 killNum=2;
+	optional int32 deadNum=3;
+	optional int32 assistNum=4;
+	optional int32 money=5;
+}

@@ -1,0 +1,3 @@
+message ReqEmaliListMessage {  
+	optional string params=1;
+}

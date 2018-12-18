@@ -1,0 +1,4 @@
+message ReqGameReplyMessage {  
+	optional int32 roomId=1;
+	optional int32 startFrame=2;
+}

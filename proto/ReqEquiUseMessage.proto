@@ -1,0 +1,4 @@
+message ReqEquiUseMessage {  
+	optional int64 eid=1;
+	optional int64 pid=2;
+}

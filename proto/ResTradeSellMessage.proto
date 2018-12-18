@@ -1,0 +1,3 @@
+message ResTradeSellMessage {  
+	optional int64 pid=1;
+}

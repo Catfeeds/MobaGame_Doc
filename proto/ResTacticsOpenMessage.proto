@@ -1,0 +1,7 @@
+message ResTacticsOpenMessage {  
+	repeated TacticsInfoMessage openList=1;
+}
+message TacticsInfoMessage {  
+	optional int32 tid=1;
+	optional int32 level=2;
+}

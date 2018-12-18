@@ -1,0 +1,10 @@
+message ReqBattleDataMessage {  
+	optional int32 frameIndex=1;
+	optional BattleTeamDataMessage home=2;
+	optional BattleTeamDataMessage away=3;
+}
+message BattleTeamDataMessage {  
+	optional int64 teamId=1;
+	optional int32 coreHp=2;
+	optional string extend=3;
+}

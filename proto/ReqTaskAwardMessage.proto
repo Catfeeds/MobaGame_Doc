@@ -1,0 +1,3 @@
+message ReqTaskAwardMessage {  
+	optional int32 tid=1;
+}

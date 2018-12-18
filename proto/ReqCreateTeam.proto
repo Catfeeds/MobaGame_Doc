@@ -1,0 +1,7 @@
+message ReqCreateTeam {  
+	optional string name=1;
+	optional string logo=2;
+	optional int32 xPlayerId=3;
+	optional int32 index=4;
+	optional int32 secId=5;
+}

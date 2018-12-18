@@ -1,0 +1,5 @@
+message ReqBattleUseSkillMessage {  
+	optional int64 battleId=1;
+	optional int64 pid=2;
+	optional int32 skillId=3;
+}

@@ -1,0 +1,3 @@
+message ReqBattleStartMessage {  
+	optional int32 type=1;
+}

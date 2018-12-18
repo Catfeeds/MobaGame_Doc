@@ -1,0 +1,7 @@
+message ResTeamSkillMessage {  
+	repeated SkillMessage skillList=1;
+}
+message SkillMessage {  
+	optional int32 skillId=1;
+	optional int32 level=2;
+}

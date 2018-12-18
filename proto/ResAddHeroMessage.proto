@@ -1,0 +1,9 @@
+message ResAddHeroMessage {  
+	optional HeroMessage hero=1;
+}
+message HeroMessage {  
+	optional int32 heroId=1;
+	optional int64 pid=2;
+	optional int32 suitId=3;
+	repeated int32 equiList=4;
+}

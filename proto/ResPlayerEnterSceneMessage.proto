@@ -1,0 +1,3 @@
+message ResPlayerEnterSceneMessage {  
+	optional int32 mapId=1;
+}

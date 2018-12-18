@@ -1,0 +1,8 @@
+message CombineMessage {  
+	repeated Packet packets=1;
+}
+message Packet {  
+	optional int32 module=10;
+	optional int32 cmd=11;
+	optional bytes body=12;
+}

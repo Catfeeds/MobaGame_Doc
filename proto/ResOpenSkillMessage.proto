@@ -1,0 +1,7 @@
+message ResOpenSkillMessage {  
+	repeated SkillMessage openList=1;
+}
+message SkillMessage {  
+	optional int32 skillId=1;
+	optional int32 level=2;
+}

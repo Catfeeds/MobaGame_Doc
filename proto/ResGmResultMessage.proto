@@ -1,0 +1,4 @@
+message ResGmResultMessage {  
+	optional int32 result=1;
+	optional string message=2;
+}

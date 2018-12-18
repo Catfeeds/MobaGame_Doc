@@ -1,0 +1,26 @@
+message PKGameEndMessage {  
+	optional TeamSimpleMessage homeTeam=1;
+	optional TeamSimpleMessage awayTeam=2;
+	optional int64 winTeam=3;
+	optional int32 homeKill=4;
+	optional int32 awayKill=5;
+	repeated PKPlayerInfoMessage homePlayers=6;
+	repeated PKPlayerInfoMessage awayPlayers=7;
+}
+message TeamSimpleMessage {  
+	optional int64 teamId=1;
+	optional string teamName=2;
+	optional string logo=3;
+	optional int32 level=4;
+}
+message PKPlayerInfoMessage {  
+	optional int32 playerId=1;
+	optional string mark=2;
+	optional int32 kill=3;
+	optional int32 dead=4;
+	optional int32 assist=5;
+	optional int32 money=6;
+	optional int32 score=7;
+	repeated int32 equiList=8;
+	optional int32 cap=9;
+}

@@ -1,0 +1,6 @@
+message ResBattleUseTacticsMessage {  
+	optional int64 battleId=1;
+	optional int64 teamId=2;
+	optional int32 tacticsId=3;
+	optional int32 moveType=4;
+}

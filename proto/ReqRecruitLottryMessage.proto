@@ -1,0 +1,3 @@
+message ReqRecruitLottryMessage {  
+	optional int32 id=1;
+}

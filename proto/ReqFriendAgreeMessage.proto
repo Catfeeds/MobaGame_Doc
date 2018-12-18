@@ -1,0 +1,4 @@
+message ReqFriendAgreeMessage {  
+	optional int64 teamId=1;
+	optional int32 value=2;
+}

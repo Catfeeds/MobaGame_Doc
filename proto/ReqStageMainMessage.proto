@@ -1,0 +1,3 @@
+message ReqStageMainMessage {  
+	optional string params=1;
+}

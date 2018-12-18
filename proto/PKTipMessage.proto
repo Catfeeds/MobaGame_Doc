@@ -1,0 +1,4 @@
+message PKTipMessage {  
+	optional int32 tipId=1;
+	optional string tipParams=2;
+}

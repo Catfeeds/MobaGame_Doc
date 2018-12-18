@@ -1,0 +1,10 @@
+message ResPlayerUpdateMessage {  
+	optional PlayerMessage player=1;
+}
+message PlayerMessage {  
+	optional int64 id=1;
+	optional int32 playerId=2;
+	optional int32 price=3;
+	optional int32 lineupPos=4;
+	optional int32 skillId=5;
+}

@@ -1,0 +1,4 @@
+message ReqUseHeroMessage {  
+	optional int64 pid=1;
+	optional int32 heroId=2;
+}

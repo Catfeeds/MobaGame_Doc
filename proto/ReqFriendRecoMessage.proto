@@ -1,0 +1,3 @@
+message ReqFriendRecoMessage {  
+	optional string params=1;
+}

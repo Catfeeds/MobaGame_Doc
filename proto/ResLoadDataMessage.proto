@@ -1,0 +1,114 @@
+message ResLoadDataMessage {  
+	optional ResTeamInfoMessage teamData=1;
+	optional ResMoney teamMoney=2;
+	optional PropBagMessage propBag=3;
+	optional ResEmailListMessage teamEmail=4;
+	optional ResTeamFriendMessage teamFriend=5;
+	optional TeamPlayerMessage teamPlayer=6;
+	optional TeamHeroMessage teamHero=7;
+	optional TeamTacticsMessage teamTactics=8;
+	optional ResTeamSkillMessage teamSkill=9;
+	optional int64 serverTime=10;
+	optional ResPlayerEquiMessage playerEqui=11;
+}
+message ResTeamInfoMessage {  
+	optional int64 teamId=1;
+	optional string teamName=2;
+	optional int32 level=3;
+	optional string teamLogo=4;
+	optional int64 createTime=5;
+}
+message ResPlayerEquiMessage {  
+	repeated EquiMessage equiList=1;
+}
+message EquiMessage {  
+	optional int64 eid=1;
+	optional int32 equiId=2;
+	optional int32 level=3;
+	optional int64 pid=4;
+}
+message PropBagMessage {  
+	repeated ResPropMessage propList=1;
+}
+message ResPropMessage {  
+	optional int32 id=1;
+	optional int32 propId=2;
+	optional int32 num=3;
+	optional int64 endTime=4;
+}
+message ResEmailListMessage {  
+	repeated ResEmailMessage emailList=1;
+}
+message ResEmailMessage {  
+	optional int64 id=1;
+	optional int32 viewId=2;
+	optional string title=3;
+	optional string content=4;
+	optional int32 status=5;
+	optional int64 createTime=6;
+	repeated ResPropSimpleData propList=7;
+}
+message ResPropSimpleData {  
+	optional int32 propId=1;
+	optional int32 num=2;
+}
+message TeamHeroMessage {  
+	repeated HeroMessage heroList=1;
+}
+message HeroMessage {  
+	optional int32 heroId=1;
+	optional int64 pid=2;
+	optional int32 suitId=3;
+	repeated int32 equiList=4;
+}
+message ResTeamFriendMessage {  
+	repeated FriendMessage friendList=1;
+	repeated FriendMessage blackList=2;
+	repeated FriendMsgMessage reqList=3;
+}
+message FriendMessage {  
+	optional int64 teamId=1;
+	optional string logo=2;
+	optional string name=3;
+	optional int32 lv=4;
+	optional bool online=5;
+	optional int64 refusedTime=6;
+	optional int64 leagueId=7;
+	optional int64 createTime=8;
+}
+message FriendMsgMessage {  
+	optional int64 teamId=1;
+	optional string mgs=2;
+	optional int64 createTime=3;
+}
+message TeamTacticsMessage {  
+	repeated TacticsInfoMessage tacticsList=1;
+	optional int32 useTactics=2;
+}
+message TacticsInfoMessage {  
+	optional int32 tid=1;
+	optional int32 level=2;
+}
+message ResMoney {  
+	optional int64 exp=1;
+	optional int64 money=2;
+	optional int64 gold=3;
+	optional int64 bdMoney=4;
+}
+message TeamPlayerMessage {  
+	repeated PlayerMessage playerList=1;
+}
+message PlayerMessage {  
+	optional int64 id=1;
+	optional int32 playerId=2;
+	optional int32 price=3;
+	optional int32 lineupPos=4;
+	optional int32 skillId=5;
+}
+message ResTeamSkillMessage {  
+	repeated SkillMessage skillList=1;
+}
+message SkillMessage {  
+	optional int32 skillId=1;
+	optional int32 level=2;
+}

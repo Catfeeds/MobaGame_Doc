@@ -1,0 +1,8 @@
+message ResBattleEndMessage {  
+	optional int64 winTeam=1;
+	repeated ResPropSimpleData awardList=2;
+}
+message ResPropSimpleData {  
+	optional int32 propId=1;
+	optional int32 num=2;
+}

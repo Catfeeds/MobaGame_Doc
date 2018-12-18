@@ -1,0 +1,3 @@
+message ReqBlackDelMessage {  
+	optional int64 teamId=1;
+}

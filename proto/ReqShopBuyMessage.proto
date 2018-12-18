@@ -1,0 +1,4 @@
+message ReqShopBuyMessage {  
+	optional int32 sid=1;
+	optional int32 num=2;
+}

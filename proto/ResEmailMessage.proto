@@ -1,0 +1,13 @@
+message ResEmailMessage {  
+	optional int64 id=1;
+	optional int32 viewId=2;
+	optional string title=3;
+	optional string content=4;
+	optional int32 status=5;
+	optional int64 createTime=6;
+	repeated ResPropSimpleData propList=7;
+}
+message ResPropSimpleData {  
+	optional int32 propId=1;
+	optional int32 num=2;
+}

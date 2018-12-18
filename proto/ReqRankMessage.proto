@@ -1,0 +1,5 @@
+message ReqRankMessage {  
+	optional int32 rankType=1;
+	optional int32 start=2;
+	optional int32 end=3;
+}

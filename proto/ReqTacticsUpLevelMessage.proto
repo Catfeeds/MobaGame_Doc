@@ -1,0 +1,3 @@
+message ReqTacticsUpLevelMessage {  
+	optional int32 tid=1;
+}

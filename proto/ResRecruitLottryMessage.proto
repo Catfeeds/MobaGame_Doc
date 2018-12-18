@@ -1,0 +1,16 @@
+message ResRecruitLottryMessage {  
+	optional int32 id=1;
+	repeated ResPropSimpleData itemList=2;
+	optional RecruitInfoMessage info=3;
+}
+message RecruitInfoMessage {  
+	optional int32 rid=1;
+	optional int32 totalCount=2;
+	optional int32 useFree=3;
+	optional int64 lastTime=4;
+	optional bool free=5;
+}
+message ResPropSimpleData {  
+	optional int32 propId=1;
+	optional int32 num=2;
+}

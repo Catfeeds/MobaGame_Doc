@@ -1,0 +1,10 @@
+message ResRecruitMainMessage {  
+	repeated RecruitInfoMessage recruitList=1;
+}
+message RecruitInfoMessage {  
+	optional int32 rid=1;
+	optional int32 totalCount=2;
+	optional int32 useFree=3;
+	optional int64 lastTime=4;
+	optional bool free=5;
+}

@@ -1,0 +1,3 @@
+message ResDefault {  
+	optional int32 statusCode=1;
+}

@@ -1,0 +1,3 @@
+message ResEmailReadMessage {  
+	repeated int64 ids=1;
+}

@@ -1,0 +1,3 @@
+message ResKickPlayerMessage {  
+	optional int32 code=1;
+}

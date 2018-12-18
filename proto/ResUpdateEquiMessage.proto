@@ -1,0 +1,5 @@
+message ResUpdateEquiMessage {  
+	optional int32 heroId=1;
+	optional int32 suitId=2;
+	repeated int32 equiList=3;
+}

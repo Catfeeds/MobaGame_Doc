@@ -1,0 +1,10 @@
+message ReqPKStartMessage {  
+	repeated PlayerLineupMessage playerConfig=1;
+	optional int32 tactics=2;
+	optional int32 matchType=3;
+	optional int32 matchId=4;
+}
+message PlayerLineupMessage {  
+	optional int32 playerId=1;
+	optional int32 posotion=2;
+}

@@ -1,0 +1,5 @@
+message ReqBattleUseTacticsMessage {  
+	optional int64 battleId=1;
+	optional int32 tacticsId=2;
+	optional int32 moveType=3;
+}

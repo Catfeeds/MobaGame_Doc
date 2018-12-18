@@ -1,0 +1,4 @@
+message ResStageChallengeMessage {  
+	optional int32 stageId=1;
+	optional int32 stageCode=2;
+}

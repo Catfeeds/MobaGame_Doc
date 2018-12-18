@@ -1,0 +1,7 @@
+message ResUseHeroMessage {  
+	repeated HeroBindMessage heroBindInfo=1;
+}
+message HeroBindMessage {  
+	optional int64 pid=1;
+	optional int32 heroId=2;
+}

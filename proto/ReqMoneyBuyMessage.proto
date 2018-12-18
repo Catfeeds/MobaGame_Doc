@@ -1,0 +1,3 @@
+message ReqMoneyBuyMessage {  
+	optional int32 money=1;
+}
